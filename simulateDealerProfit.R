@@ -32,7 +32,8 @@ for (i in 1:length(winnings)){
     acc_winnings[i] <- winnings[i]
   }
 }
+hist(winnings)
 acc_winnings[num_hands]
 }
 
-simulateBlackjack(100000, 6)
+simulateBlackjack(100, 6)
