@@ -47,7 +47,8 @@ ggplot(data = mpg) +
     ggplot(data = mpg) + 
       geom_point(mapping = aes(x = displ, y = hwy), color = "blue")
 
-# 2. Which variables in mpg are categorical? Which variables are continuous? (Hint: type ?mpg to read the documentation for the dataset). How can you see this information when you run mpg?
+# 2. Which variables in mpg are categorical? Which variables are continuous? (Hint: type ?mpg to read the documentation for the dataset). 
+# How can you see this information when you run mpg?
 ?mpg
 mpg
   # manufacturer, model, trans, drv, fl, class > categorical 
